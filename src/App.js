@@ -95,6 +95,7 @@ class App extends React.PureComponent {
 				<p className={styles.title}>MIS TABLEROS</p>
 				<div className={styles.countBoards}>{this.state.boards.length} Elemento(s)</div>
 				</div>
+				<h3>Nombre del tablero:</h3>
 				<div className={styles.board_add}>
 						<div className={styles.container_input}>
 							<Input type="text" value={this.state.input.add} onChange={this.onAddBoardInputChange}/>
